@@ -8,7 +8,6 @@ from data import db_session
 from data.users import User
 
 app = Flask(__name__)
-
 logging.basicConfig(level=logging.INFO)
 
 cities = {
